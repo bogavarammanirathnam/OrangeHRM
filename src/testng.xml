@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Orange HRM Suites" verbose="1">
+	<listeners>
+        <listener class-name="listeners.ScreenshotListener" />
+        <listener class-name="listeners.ExtentReportListener" />
+        </listeners>
+    <test name="Orange HRM Tests" >
+        <classes>
+			<class name="testclasses.LoginTest" />
+            <class name="testclasses.AddEmployeeTest"/>
+        </classes>
+    </test>
+</suite>
